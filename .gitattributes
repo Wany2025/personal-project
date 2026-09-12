@@ -1,0 +1,24 @@
+# 统一换行符：仓库内统一存 LF，检出时由各平台自行处理
+* text=auto
+
+*.java   text diff=java
+*.xml    text
+*.yml    text
+*.yaml   text
+*.md     text
+*.js     text
+*.vue    text
+*.json   text
+*.css    text
+*.html   text
+*.sql    text
+
+# 二进制文件不做换行转换
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.woff   binary
+*.woff2  binary
+*.jar    binary
